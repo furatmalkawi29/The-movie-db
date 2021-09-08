@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap');
+
+$nav-bg: rgb(3,37,65);
+$font1 : 'Source Sans Pro', sans-serif;
+$font1-color: #ffffff;
+
+
+nav {
+  background-color: $nav-bg;
+  height: 60px;
+  font-family: $font1;
+  color:$font1-color;
+  font-weight: 900;
+  font-size: 16px;
+
+  img {
+   width:150px;
+   position: relative;
+   top: 20px;
+   left:40px;
+  }
+  
+  div,ul, li {
+    display: inline;
+  }
+
+  ul {
+    position: absolute;
+    top: 20px;
+    right:68px;
+  }
+
+  span {
+    font-size: .8em;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
+  div ul {
+    position: relative;
+    left: 70px;
+    top:15px;
+  }
+
+  li{
+    margin-right: 30px;
+  }
+
+  img,li, .search-icon ,.plus-icon {
+    cursor: pointer;
+  }
+
+}
+
+.search-icon {
+    position: absolute;
+    top: 18px;
+    right:43px;
+    font-size: 1.4em;
+    color: #01B4E4;
+}
+
+.plus-icon {
+  position: absolute;
+  top: 18px;
+  right:330px;
+  font-size: 1.2em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+

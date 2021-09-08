@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;900&display=swap');
+
+$primary-color: rgb(3,37,65);
+$font1 : 'Source Sans Pro', sans-serif;
+$font1-color: #ffffff;
+$font2-color: #01b4e4;
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  p {
+  font-family: $font1;
+  font-size: 16px;
+  font-weight: 900;
+  margin: 0px 10px;
+  margin-top: 3px;
+  }
+ }
+.movie-card {
+  position: relative;
+  width: 170px;
+  height: 340px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px -3px rgba(0,0,0,0.73);
+  margin:12px 10px;
+
+
+  img {
+    width:100%;
+    height: 70%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  div :nth-child(2){
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 5px;
+    color: rgba(22, 22, 22, 0.6)
+  }
+
+  img, div p {
+    cursor: pointer;
+  }
+
+  :nth-child(4):hover {
+    color: $font2-color;
+  }
+}
+
+
+ .dots-icon :hover{
+color: $font2-color;
+}
+
+.dots-icon {
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+  opacity: .85;
+  top:5px;
+  right:5px;
+  font-size: 1.6em;
+ }
+

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+$primary-color: rgb(3,37,65);
+$font3 : 'Source Sans Pro',sans-serif;
+$font2 : 'Roboto', sans-serif;
+$font2-color: #01b4e4;
+$prgress-color : rgb(36, 44, 46);
+
+
+.layer-0{
+  background-repeat: no-repeat;
+  background-size: 73% 100%;
+  background-position: right center ;
+}
+
+.layer-1{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 17%, rgb(4, 24, 68) 34%, rgba(255,255,255,.3) 100%);
+
+}
+
+.layer-2{
+  background: rgba(26, 25, 25, 0.6);
+
+}
+
+.overview-banner {
+  font-family: $font3;
+  position: relative;
+  margin-top: 15px;
+  height: 410px;
+  padding: 30px 35px;
+  color:white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+  font-weight: 500;
+// background: rgb(2,0,36);
+// background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(53,53,108,1) 23%, rgba(255,255,255,1) 100%);
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:65%;
+    height: 100%;
+    top: 30px;
+    left:350px;
+    margin: 5px;
+    
+  }
+  
+  
+  h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-family: $font2;
+    margin-bottom: 8px;
+  }
+  
+  h1 span {
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  img {
+    float: left;
+    width: 280px;
+    height: 410px;
+    border-radius: 10px;
+    cursor: pointer;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+
+  
+  
+  
+  p .span-dot {
+        height: 3px;
+        width: 3px;
+        background-color: rgb(253, 253, 253);
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+        margin: 3px;
+        margin-right: 6px;
+      }
+      
+      p .category {
+        border: 1px white solid;
+      border-radius: 2px;
+      margin-right: 4px;
+      font-weight: 900;
+      text-shadow: 0px;
+      padding:0px 4px;
+      color: rgb(216, 214, 214);
+    };
+    
+    li :first-child{
+      font-size: .8em;
+      padding: 17px;
+      background-color: $primary-color;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    
+    ul {
+      width:30%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin:10px 30px;
+    }
+
+    .score {
+      font-size: .75em;
+    :first-child {
+      display: block;
+    }
+  }
+
+    //progress ring -------
+    .progress-ring {
+      position: relative;
+      left:0px;
+      top:15px;
+      background: $prgress-color;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      margin-right: 10px;
+    
+      p {
+        position: absolute;
+        top: 18px;
+        left: 14px;
+        color: white;
+        font-weight: 700;
+        font-size: 23px;
+        font-family: $font3;
+      }
+    
+      span {
+      position: absolute;
+      top:4px;
+      font-size: .4em;
+      }
+    
+      
+    }
+    
+    .progress{
+      margin: 3.5px 0 0 0px;
+    }
+    .shadow-circle {
+      position: absolute;
+        top:5.5px;
+        right: 3.5px;
+        border-radius: 50%;
+        width: 1.9em;
+        height: 1.9em;
+        border: 5px solid rgba(245, 31, 106, 0.45);    
+    }
+  }
+  
+  
+  
+  .movie-info {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      font-size: 22px;
+      cursor: pointer;
+    }
+    
+    p {
+      font-size: 15px;
+    }
+    
+    .play-trailer:hover{
+      color:$font2-color;
+      transition: 1s;
+    }
+  }
+  
+  
+  .movie-info-text {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+*{
+  margin: 9px 0;
+
+}
+h3{
+font-style: italic;
+color: rgb(214, 214, 214);
+margin-bottom: 5px;
+}
+
+h2{
+font-weight: 900;
+font-size: 20px;
+margin-left: 0px;
+margin-bottom: 5px;
+}
+
+div div :first-child{
+font-weight: 900;
+font-size: 15.5px;
+margin-bottom: 4px;
+}
+
+div div :nth-child(2){
+font-size: 14px;
+font-weight: 600;
+}
+
+.directors {
+  display: flex;
+  justify-content: space-between;
+}
+
+:nth-child(3){
+  font-weight: 500;
+}
+
+
+}
+

@@ -1,0 +1,36 @@
+.cast-reel {
+  
+  h1{
+    font-size: 19px ;
+    font-weight: 600;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    margin-top: 25px;
+    margin-left: 37px;
+  }
+
+  .container{
+    width:950px;
+    display: flex;
+    padding: 20px;
+    margin-left: 7px;
+    overflow-x: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    height: 9px;
+  }
+  
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 2px rgb(196, 194, 194); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(168, 166, 166); 
+  border-radius: 10px;
+}
