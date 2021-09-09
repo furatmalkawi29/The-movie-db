@@ -26,4 +26,4 @@
 ![](https://github.com/furatmalkawi29/The-movie-db/blob/main/src/assets/cast.PNG)
 
 <br>
-- On screen size shange, the pages behave in -almost- the way as to the original TMDB website .
+- On screen size shange, the pages behave in -almost- the same way the original TMDB website behave .
