@@ -15,7 +15,7 @@
 - Movies genres are added in a drop menu .
 <br>
 
-![](https://github.com/furatmalkawi29/The-movie-db/blob/main/src/assets/explain.PNG =250x) 
+![](https://github.com/furatmalkawi29/The-movie-db/blob/main/src/assets/explain.PNG)
 
 <br>
 <br>
