@@ -8,7 +8,7 @@ $font2-color: #01b4e4;
 .card-text {
   display: flex;
   flex-direction: column;
-  p {
+  p,a {
   font-family: $font1;
   font-size: 16px;
   font-weight: 900;
@@ -42,7 +42,7 @@ $font2-color: #01b4e4;
     cursor: pointer;
   }
 
-  :nth-child(4):hover {
+  a:hover {
     color: $font2-color;
   }
 }
@@ -60,5 +60,18 @@ color: $font2-color;
   top:5px;
   right:5px;
   font-size: 1.6em;
+  cursor: pointer;
  }
 
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.menu-home{
+  margin-top: 50px;
+  margin-left: -180px;
+  p{
+    font-weight: normal;
+  }
+}

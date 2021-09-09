@@ -30,7 +30,7 @@ $prgress-color : rgb(36, 44, 46);
   font-family: $font3;
   position: relative;
   margin-top: 15px;
-  height: 410px;
+  height: 480px;
   padding: 30px 35px;
   color:white;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
@@ -68,8 +68,8 @@ section {
 
   img {
     float: left;
-    width: 280px;
-    height: 410px;
+    width: 300px;
+    height: 99%;
     border-radius: 10px;
     cursor: pointer;
     cursor: pointer;
@@ -228,8 +228,8 @@ font-weight: 600;
 }
 
 .directors {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 :nth-child(3){

@@ -6,13 +6,10 @@ import MovieDetails from "../../pages/MovieDetails";
 export default function Main() {
   return (
     <React.Fragment>
-
-      <HomePage/>
-      {/* <MovieDetails/> */}
-      {/* <Switch>
+      <Switch>
         <Route exact path="/" component={HomePage}/>
-        <Route path="/movie/id" component={MovieDetails}/>
-      </Switch> */}
+        <Route path="/movie/:id" component={MovieDetails}/>
+      </Switch>
     </React.Fragment>
   )
 }

@@ -1,21 +1,28 @@
 import React from 'react'
 import CastCard from "../CastCard/CastCard";
 import './CastReel.scss'
-export default function CastReel() {
+import { BsArrowRightShort } from "react-icons/bs";
+
+export default function CastReel(props) {
+
+  let castArr = props.details.credits.cast;
+  
+  let tenPeople = castArr.length>10? getTenPeople(castArr):castArr
+
+  function getTenPeople (arr){
+    return  castArr.filter((element,index)=> index <10);
+
+  }
+
+  console.log(castArr);
+  console.log(tenPeople);
+
   return (
     <div className="cast-reel">
       <h1>Top Billed Cast</h1>
       <div className="container">
-      <CastCard/>
-      <CastCard/>
-      <CastCard/>
-      <CastCard/>
-      <CastCard/>
-      <CastCard/>
-      <CastCard/>
-      <CastCard/>
-      <CastCard/>
-      <CastCard/>
+      {tenPeople.map(element=> <CastCard key={element.id} castInfo={element}/> )}
+      <div className="view-more"><p>View More <BsArrowRightShort/></p></div>
       </div>
     </div>
   )

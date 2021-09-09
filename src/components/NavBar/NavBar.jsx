@@ -7,7 +7,7 @@ import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import fetchMoviesAsync from '../../redux/moviesList/action'
 import { connect } from "react-redux";
-
+import {Link} from 'react-router-dom'
 
 function NavBar(props) {
 
@@ -34,12 +34,12 @@ function NavBar(props) {
         onClose={handleClose}
         className="menu"
       >
-        <MenuItem onClick={handleClose}>Popular</MenuItem>
-        <MenuItem onClick={handleClose}>Upcoming</MenuItem>
-        <MenuItem onClick={handleClose}>Top rated</MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/">Popular</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/">Upcoming</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/">Top rated</Link></MenuItem>
       </Menu>
       <div>
-        <img alt="logo" src={logo} />
+        <Link to="/"><img alt="logo" src={logo} /></Link>
         <ul>
           <li onClick={handleClick}>Movies</li>
           <li>TV Shows</li>

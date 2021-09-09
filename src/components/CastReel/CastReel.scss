@@ -9,13 +9,32 @@
   }
 
   .container{
-    width:950px;
+    width:980px;
     display: flex;
     padding: 20px;
     margin-left: 7px;
     overflow-x: scroll;
   }
 
+  .view-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 135px;
+
+    p{
+      display: flex;
+      color: rgb(10, 10, 10);
+      font-weight: 700;
+      font-family: "Source Sans Pro", Arial, sans-serif;
+      cursor: pointer;
+    }
+
+    p :first-child{
+      font-size: 20px;
+    }
+    
+  }
   ::-webkit-scrollbar {
     height: 9px;
   }
