@@ -36,7 +36,6 @@ import { connect } from "react-redux";
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
-    console.log('i clicked');
     let genreResult = getTopThreeGenres(props.genresList).join(' | ');
     setGenres(genreResult)
   };

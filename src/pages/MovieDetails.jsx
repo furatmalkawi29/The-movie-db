@@ -12,7 +12,6 @@ function MovieDetails(props) {
 
   const {id} = useParams();
 
-  console.log(id);
   useEffect(() => {
     props.fetchMovieByIdAsync(id);
   }, []);

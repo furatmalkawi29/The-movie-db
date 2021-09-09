@@ -20,7 +20,7 @@ function HomePage(props) {
 
   useEffect(() => {
     props.fetchMoviesAsync('popular')
-  }, [])
+  },[])
 
   return (
     <div style={grid}>

@@ -99,7 +99,7 @@ export default function OverviewBanner(props) {
         <div className="layer-2">
           <div className="overview-banner">
             <img
-              alt={"movie-title" + "-poster"}
+              alt="poster"
               src={`https://image.tmdb.org/t/p/w500/${props.details.poster_path}`}
             />
 

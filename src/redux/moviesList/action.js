@@ -6,7 +6,6 @@ let UPDATE_HEADING = 'UPDATE_HEADING';
 let FETCH_GENRES = 'FETCH_GENRES';
 
 function fetchMovies(moviesArr) {
-  console.log("moviesArr ", moviesArr)
   return {
     type:FETCH_MOVIES,
     payload: moviesArr
@@ -14,7 +13,6 @@ function fetchMovies(moviesArr) {
 }
 
 function updateHeading(movieType) {
-  console.log("movieType ", movieType)
   return {
     type:UPDATE_HEADING,
     payload: movieType
@@ -22,7 +20,6 @@ function updateHeading(movieType) {
 }
 
 function fetchGenres(genres) {
-  console.log("genres ", genres)
   return {
     type:FETCH_GENRES,
     payload: genres

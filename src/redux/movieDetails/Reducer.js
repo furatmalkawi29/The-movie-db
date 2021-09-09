@@ -15,7 +15,6 @@ function movieDetailsReducer(state=initialState, action) {
           ...action.payload}
       }
     case 'CHANGE_ISLOADING_FLAG':
-      console.log(state.isDetailsLoading);
         return {
           ...state,
           isDetailsLoading: !state.isDetailsLoading,

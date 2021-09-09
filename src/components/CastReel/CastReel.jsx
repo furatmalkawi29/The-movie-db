@@ -14,8 +14,6 @@ export default function CastReel(props) {
 
   }
 
-  console.log(castArr);
-  console.log(tenPeople);
 
   return (
     <div className="cast-reel">
