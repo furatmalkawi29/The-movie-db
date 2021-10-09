@@ -1,13 +1,4 @@
 # The Movie Database
-
-:pushpin: Test recieved:
-<br>
-6-September | 2:00pm 
-
-:pushpin: Test submitted:
-<br>
-9-September | 6:00am
-
 <br>
 <br>
 
